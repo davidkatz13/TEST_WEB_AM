@@ -1,6 +1,7 @@
 Welcome to the test Asset Management app. 
 
 To run the application the following needs to be done: 
+
     Backend:
       - in terminal go to the backend folder
       - install venv or Pipenv: python3 -m venv venv
