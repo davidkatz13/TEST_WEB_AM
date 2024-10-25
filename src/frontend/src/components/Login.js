@@ -51,6 +51,11 @@ function Login() {
     disabilityCheck();
   }, [email, password]);
 
+
+  console.log(process.env.REACT_APP_API_URL);
+  console.log(BASE_URL);
+
+
   return (
     <div className="min-h-screen bg-gray-900 flex flex-col justify-center items-center">
       <div className="bg-gray-800 p-8 rounded-lg shadow-md w-full max-w-md">
